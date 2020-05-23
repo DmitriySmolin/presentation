@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+	<link rel="stylesheet" href="../reveal.js-master/css/syle.css">
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal" style="background: #0583cb;">
+		<div class="slides">
+			<section>
+				<div>
+					<img width="500" src="img/ajax_icon.png" style="background:none; border:none; box-shadow:none">
+				</div>
+				<div class="ajax-title">Asynchronous Javascript and XML</div>
+			</section>
+			<section>
+				<div class="ajax-title">Presentation plan</div>
+				<ul>
+					<li>
+						What is AJAX?
+					</li>
+					<li>
+						Story AJAX
+					</li>
+					<li>
+						Technology
+					</li>
+					<li>
+						Synchronous data exchange model
+					</li>
+					<li>
+						Asynchronous data exchange model
+					</li>
+					<li>
+						AJAX application
+					</li>
+					<li>
+						Why would i recommend you to use AJAX
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="ajax-title">What is AJAX?</div>
+				<div>AJAX is a set of web technologies for creating asynchronous web applications.
+				</div>
+			</section>
+			<section>
+				<section>
+					<div class="ajax-title">Story AJAX</div>
+					<ul>
+						<li>FRAME, IFRAME - IE 3, 1996</li>
+						<li>Remote Scripting (Microsoft) - IE 5.5 1998</li>
+						<li>AJAX - 2005</li>
+						<li>W3C XMLHttpRequest - 2006</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<div class="ajax-title">Technology</div>
+					<div>
+						<img width="500" src="img/technology.png" style="background:none; border:none; box-shadow:none">
+					</div>
+				</section>
+			</section>
+			<section>
+				<div class="ajax-title">Classic Web Application (synchronous)</div>
+				<div>
+					<img width="500" src="img/synchrounous.png" style="background:none; border:none; box-shadow:none">
+				</div>
+			</section>
+			<section>
+				<div class="ajax-title">Classic Web Application (synchronous)</div>
+				<div>
+					<img width="500" src="img/asynchronous.png" style="background:none; border:none; box-shadow:none">
+				</div>
+			</section>
+			<section>
+				<section>
+					<div class="ajax-title">AJAX Application</div>
+					<div>
+						<img width="500" src="img/app.png" style="background:none; border:none; box-shadow:none">
+					</div>
+				</section>
+				<section>
+					<div class="ajax-title">The structure of a simple request to the server</div>
+					<div>
+						<img width="700" src="img/query.PNG" style="background:none; border:none; box-shadow:none">
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<div class="ajax-title"> Why would i recommend you to use AJAX</div>
+					<ul>
+						<li>Traffic saving </li>
+						<li>Reducing server load </li>
+						<li>Accelerate Interface Response</li>
+						<li>Increase interactivity </li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<div class="ajax-title"> THANKS FOR ATTENTION!</div>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
